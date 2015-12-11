@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+  
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <meta name="mobile-web-app-capable" content="yes">
+   <link href="css/monomer.css" rel="stylesheet"/><!---->
+     <link href="css/style.css" rel="stylesheet"/>
+  </head>
+
+  <body style="width:300px;height:600px">
+
+    <div class="page" id="Main">
+      <div class="header green z-d1">
+        <h2 class="color-white">Ortografía</h2>
+         <button class="expand-config button-right icon-ellipsis-v icon-1x icon-white" target=".mainMenu"></button>
+        <div class="options">
+          <ul class="configMenu mainMenu background_control card z-d1 divider">
+              <li class="opOcultarBoton">Ocultar Botón en Página</li>
+              <li class="opMostrarBoton">Mostrar Botón en Página</li>
+              <li class="opBorrarOmitidas">Borrar Todas las Omitidas</li>
+              <!-- <li class="opDefinir">Buscar Definición</li> -->
+            </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="tabBar">
+          <ul class="green">
+            <li class="tab selected">Errores</li><!--
+         --><li class="tab ">Omitidas</li><!--
+         --><div class="selectedTab grey"></div>
+          </ul>
+          <div class="tabElement">
+            <ul id="errores" class="list advanced divider">
+            </ul>
+          </div><!--
+          --><div class="tabElement">
+            <ul id="omitidos" class="list advanced divider">
+            </ul>
+          </div>
+        </div>
+
+        
+          <br>  
+        <div class="options">
+          <ul class="itemMenu configMenu background_control card z-d1 divider">
+              <li class="opOmitir">Omitir</li>
+              <!-- <li class="opDefinir">Buscar Definición</li> -->
+            </ul>
+        </div>
+        <button class="floating-button floating-down-right green" id="btnValidar">
+          <i class="icon-check icon-white"></i>
+        </button>
+        </div>
+    </div>
+
+  </body>
+</html>
+   
+   <script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
+
+    
+    <script src="js/vendor/pointerevents.js" type="text/javascript"></script>
+
+    <script src="js/vendor/monomer.js" type="text/javascript"></script>
+    
+  <script src="js/main.js" type="text/javascript"></script><!--   -->

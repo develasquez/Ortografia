@@ -1,0 +1,10 @@
+.test_box img {
+  width: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+.header h3, .header h4, .header h2 {
+    font-weight: initial;
+    font-size: initial ; 
+    width: 90%;
+}
